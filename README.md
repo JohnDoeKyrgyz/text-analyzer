@@ -15,10 +15,14 @@ This project implements an api endpoint with [express](http://expressjs.com/) to
 To install clone the repo and install the dependencies with:
 
 ```
-npm install```
+npm install
+```
 
 Then run the server with:
 ```
-npm server.js```
+npm server.js
+```
 
-Then send your requests to http://localhost:3000/analyze using post, ensuring the charset is utf-8 and the Content-Type is text/plain.  Valid requests will yield a JSON response containing the results of the text analysis.  A nice tool to easily test API endpoints I'd recommend is [Insomnia](https://insomnia.rest/).
+Then send your requests to http://localhost:3000/analyze using post, ensuring the charset is utf-8 and the Content-Type is text/plain.  Valid requests will yield a JSON response containing the results of the text analysis.
+
+A nice tool to easily test API endpoints I'd recommend is [Insomnia](https://insomnia.rest/).
