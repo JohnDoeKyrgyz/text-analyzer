@@ -1,0 +1,24 @@
+{
+  "name": "text-analyzer",
+  "version": "1.0.0",
+  "description": "An API endpoint to analyze text input",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karolat/text-analyzer.git"
+  },
+  "author": "karolat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karolat/text-analyzer/issues"
+  },
+  "homepage": "https://github.com/karolat/text-analyzer#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
