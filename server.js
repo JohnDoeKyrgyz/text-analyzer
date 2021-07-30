@@ -1,5 +1,4 @@
 import express from "express";
-
 const app = express();
 
 app.use(function (req, res, next) {
@@ -16,6 +15,11 @@ app.use(function (req, res, next) {
 });
 
 app.post("/analyze", (req, res) => {
+
+  if (req.headers['content-type'] != 'text/plain') {
+    res.status(400).send();
+  }
+
   const freqeuncy = wordFrequency(req.body);
   let top50 = [];
   if (freqeuncy.length > 50) {
